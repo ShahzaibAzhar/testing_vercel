@@ -6,7 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hello from gettttttttttt Express!');
 });
 
-app.post('/', (req, res) => {
+app.get('/data', (req, res) => {
+  res.send('Hello from gettttttttttt dataaaaaaaa!');
+});
+
+app.post('/post', (req, res) => {
   res.send('Hello from Postttttttttt Express!');
 });
 
